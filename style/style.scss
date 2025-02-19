@@ -1,19 +1,13 @@
 @import 'gridstyle';
 @import 'footer';
-
-
 $primary-color: rgb(66, 221, 131);
 $second-color:rgb(91, 184, 111);
 .body{margin: 0;box-sizing: border-box;font-size: 16px;}
-
 /*utilities*/
-
 .img__res {
     height: auto;
     width: 85%;
     border-radius: 15px;
-
-
 }
 .cover__button{
   background:$primary-color ;
@@ -43,29 +37,20 @@ $second-color:rgb(91, 184, 111);
 .button:hover{
   background:$second-color;
 }
-
-
 /*hero*/
-
 .hero {
 
     width: 100%;
     display: flex;
     padding: 5%,10%;
 }
-
-
 .hero__img{
     width: 40%;
     align-items: center;
     justify-content: center;
     display: flex;
     padding: 5%,10%;
-
-
 }
-
-
 .hero__text{
       width: 60%;
        font-family: "raleway", serif;
@@ -76,47 +61,30 @@ $second-color:rgb(91, 184, 111);
        text-align: center;
        padding: 5% 10%;
        line-height: 10px;
-       
-
-}
-                
-
-
-
+       }
 @media  (max-width: 768px) 
 {
   .hero {flex-wrap: wrap;}
   .hero__img, .hero__text {width: 100%;;margin-top: 50px;height: auto;}
-
 }
-  
-
-/*cover*/
-
+  /*cover*/
 .cover {
-  
-  height: 450px;
+    height: 450px;
   width: 100%;
   margin-top: 100px;
   background-image: url(back1.jpg);
   background-size: cover;
   display: flex;
   justify-content: center;
-  align-items: center;
-
-}
-
+  align-items: center;}
 .cover__text{ text-align: center;
 
     h2 {     color: rgb(243, 234, 234);
       font-family: "Roboto", serif;
       max-width: 1000px;
       text-align: center;
-      font-size: 2.5rem;  }
-}
-
+      font-size: 2.5rem;  }}
 /*text*/
-
 .text{text-align: center;
       font-family: "Roboto", serif;
       padding: 5% 12%;
@@ -125,8 +93,7 @@ $second-color:rgb(91, 184, 111);
       p{ font-size: 1.3rem;
          margin-top: 5rem;      
       }
-       h2{ font-family: "Anton", serif;}
-}
+       h2{ font-family: "Anton", serif;}}
 
 
 

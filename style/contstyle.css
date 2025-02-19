@@ -1,11 +1,8 @@
 body{font-family: "roboto";background-color:rgba(66, 221, 131, 0.1) ;}
 body h1, h3 {margin-left: 30px;}
-
 .lista {list-style:none;padding: 10px auto;box-sizing: border-box;}
-
 .lista li{padding: 15px 0;}
 .l1,.l2, .l3, .l4{padding: 6px 0;margin-top: 10px;width: 50%;}
-
 .button{
     background: rgb(66, 221, 131);
     text-decoration: none; 
@@ -16,7 +13,6 @@ body h1, h3 {margin-left: 30px;}
     font-size: 16px;
 }
 .button:hover{background-color: rgba(66, 221, 131, 0.7);}
-
 .button_home{
     background:black ;
     text-decoration: none; 

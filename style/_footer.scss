@@ -8,7 +8,6 @@
     font-weight: 500;
     font-size: 3.5rem;
     }
-
 .about_list { font-family: "Roboto", serif;
               font-size: 1rem;
               list-style: none;
@@ -19,7 +18,6 @@
                 color: currentColor;
               }
               a:hover{ color: black;}
-
 }
 
 .social_list { font-family: "Roboto", serif;
@@ -28,9 +26,6 @@
   margin-top: 40px;
   line-height: 3;
 }
-
-
-
 .find{ width: 50%;display: flex; flex-direction: column; align-items: center;margin-top: 30px; border-right: 2px solid currentColor;margin-bottom: 30px;
   a{ text-decoration: none;
     color: currentColor;
@@ -38,17 +33,11 @@
   a:hover{ color: black;}
 
 }
-
-
 .me{width: 50%;display: flex; flex-direction: column; align-items: center;margin-top: 30px;}
-
-
-
 @media  (max-width: 768px) 
 {
   .footer {flex-wrap: wrap;height: 800px;}
   .me, .find {width: 100%;height: auto;}
   .find{border-right: 0;}
-
 }
   
